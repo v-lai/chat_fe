@@ -1,0 +1,28 @@
+.app {
+  margin: 0 10%;
+  position: absolute;
+  width: 80%;
+}
+
+.user, 
+.save, 
+.cancel {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 200;
+  background-color: #eef;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 1px 1px 2px #ccc;
+  cursor: pointer;
+}
+
+.user {
+  float: right;
+}
+
+.user:focus,
+.save:focus, 
+.cancel:focus {
+  outline: none;
+}
